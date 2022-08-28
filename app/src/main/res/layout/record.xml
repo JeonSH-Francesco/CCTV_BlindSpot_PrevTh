@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/reccon"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#F44336"
+        android:text="음성 인식 자동"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/recunocn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="음성 인식 해제"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reccon" />
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#2196F3"
+        android:text="뒤로가기"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recunocn" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
