@@ -17,8 +17,8 @@ import javax.mail.internet.MimeBodyPart
 import javax.mail.internet.MimeMultipart
 
 class SendMail : Authenticator() {
-    private val fromEmail = "shnarfski13@gmail.com"
-    private val password = "wkftkfwk27"
+    private val fromEmail = "Your email"
+    private val password = "Your Password"
 
     // 보내는 사람 계정 확인
     override fun getPasswordAuthentication(): PasswordAuthentication {
