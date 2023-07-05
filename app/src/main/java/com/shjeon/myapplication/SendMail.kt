@@ -45,7 +45,7 @@ class SendMail : Authenticator() {
             // 메시지 객체 만들기
             val message = MimeMessage(session)
             message.sender = InternetAddress(fromEmail)                                 // 보내는 사람 설정
-            message.addRecipient(Message.RecipientType.TO, InternetAddress("jeonsh95@naver.com"))    // 받는 사람 설정
+            message.addRecipient(Message.RecipientType.TO, InternetAddress("Email to send"))    // 받는 사람 설정
             message.subject = "이메일 제목"                                              // 이메일 제목
             message.setText("이메일 내용")                                               // 이메일 내용
 
