@@ -62,6 +62,9 @@
 -> 현재위치가 담긴 구글 맵 API 스크린샷 저장 (o)
 -> 스크린 샷 메일 전송기능 작업 (O)
 
+</br>
+--> 2022.07.13 제 11회 대학생 작품 경진대회 동상 수상
+
 ### 기대효과
 ![image](https://github.com/JeonSH-Francesco/CCTV_BlindSpot_PrevTh/assets/112309895/21493555-cf77-43c3-ae93-b270ec1bf487)
 
