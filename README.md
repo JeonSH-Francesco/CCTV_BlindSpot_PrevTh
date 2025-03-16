@@ -33,6 +33,11 @@
 
 ![image](https://github.com/JeonSH-Francesco/CCTV_BlindSpot_PrevTh/assets/112309895/d1b5d02d-43c6-4e73-996c-a9f4383c2842)
 
+## 시현 영상
+
+
+https://github.com/user-attachments/assets/0e839d66-5f98-4175-b390-d75f9fafc6fc
+
 
 
 ### R&R
